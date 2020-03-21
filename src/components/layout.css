@@ -1,84 +1,70 @@
 :root {
-  --mainOne: #7500d4;
-  --mainTwo:#a009ff;
-  --mainThree: #ece8dc;
+  --mainBrown: #2d1e1f;
+  --mainYellow: #ff9e09;
+  --mainGrey: #ece8dc;
   --mainWhite: #fff;
-  --mainDark: #222;
+  --mainDark: #000;
 }
-
-
-body{
+body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family:  Verdana, Geneva, Tahoma, sans-serif 
-  !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
-
-h1,h2,h3,h4,h4,h6{
-font-family: 'Courier New', Courier, monospace !important;
-letter-spacing: 0.25rem !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
+  letter-spacing: 0.25rem !important;
 }
-
-
-.text-yellow{
-  color: var(--mainTwo);
+.text-yellow {
+  color: var(--mainYellow) !important;
 }
-
-
-.cart-icon{
+.title {
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+}
+.cart-icon {
   cursor: pointer;
-  color: var(--mainTwo);
+  color: var(--mainYellow);
   font-size: 2rem;
 }
-
-.default-background{
-  min-height: 100hv;
-  height: 500px;
+.btn-yellow {
+  color: var(--mainYellow) !important;
+  border-color: var(--mainYellow) !important;
+}
+.btn-yellow:hover {
+  background: var(--mainYellow) !important;
+  color: var(--mainDark) !important;
+}
+.default-background {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(147, 221, 11, 0.5),
-   rgba(80, 121, 72, 0.5));
-   background-position: center;
-   background-size: cover;
-   
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
-
-.default-background{
-  min-height: 60hv;
-  height: 500px;
+.about-background {
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(147, 221, 11, 0.5),
-   rgba(80, 121, 72, 0.5));
-   background-position: center;
-   background-size: cover;
-   
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
-.btn-purple{
-  color: var(--mainTwo);
-  border-color: var(--mainTwo);
+.menu {
+  background: var(--mainGrey);
 }
-.btn-purple:hover{
-  background: var(--mainTwo);
-  color: var(--mainWhite) !important;
+.contact {
+  background: var(--mainGrey);
 }
-
-.footer{
-  background: var(--mainOne);
+.footer {
+  background: var(--mainDark);
 }
-
-
-
-
-
-
-
-
-
-
-
-
