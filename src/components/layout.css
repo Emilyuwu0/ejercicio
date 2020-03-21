@@ -1,5 +1,5 @@
 :root {
-  --mainOne: #2d1ef1;
+  --mainOne: #7500d4;
   --mainTwo:#a009ff;
   --mainThree: #ece8dc;
   --mainWhite: #fff;
@@ -30,3 +30,55 @@ letter-spacing: 0.25rem !important;
   color: var(--mainTwo);
   font-size: 2rem;
 }
+
+.default-background{
+  min-height: 100hv;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(147, 221, 11, 0.5),
+   rgba(80, 121, 72, 0.5));
+   background-position: center;
+   background-size: cover;
+   
+}
+
+
+.default-background{
+  min-height: 60hv;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(147, 221, 11, 0.5),
+   rgba(80, 121, 72, 0.5));
+   background-position: center;
+   background-size: cover;
+   
+}
+
+.btn-purple{
+  color: var(--mainTwo);
+  border-color: var(--mainTwo);
+}
+.btn-purple:hover{
+  background: var(--mainTwo);
+  color: var(--mainWhite) !important;
+}
+
+.footer{
+  background: var(--mainOne);
+}
+
+
+
+
+
+
+
+
+
+
+
+
