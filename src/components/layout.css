@@ -1,7 +1,7 @@
 :root {
-  --mainBrown: #2d1e1f;
-  --mainYellow: #ff9e09;
-  --mainGrey: #ece8dc;
+  --mainOne: #e6168f;
+  --mainTwo: #ff09ad;
+  --mainGrey: #faeff8;
   --mainWhite: #fff;
   --mainDark: #000;
 }
@@ -20,7 +20,7 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 .text-yellow {
-  color: var(--mainYellow) !important;
+  color: var(--mainTwo) !important;
 }
 .title {
   letter-spacing: 0.3rem;
@@ -28,15 +28,15 @@ h6 {
 }
 .cart-icon {
   cursor: pointer;
-  color: var(--mainYellow);
+  color: var(--mainTwo);
   font-size: 2rem;
 }
 .btn-yellow {
-  color: var(--mainYellow) !important;
-  border-color: var(--mainYellow) !important;
+  color: var(--mainTwo) !important;
+  border-color: var(--mainTwo) !important;
 }
 .btn-yellow:hover {
-  background: var(--mainYellow) !important;
+  background: var(--mainTwo) !important;
   color: var(--mainDark) !important;
 }
 .default-background {
@@ -54,7 +54,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background: linear-gradient(rgba(255, 9, 152, 0.5), rgba(27, 27, 27, 0.5));
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
