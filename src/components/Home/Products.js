@@ -1,6 +1,6 @@
-import React from "react";
-import Title from "../Globals/Title";
-import { StaticQuery, graphql } from "gatsby";
+import React from "react"
+import Title from "../Globals/Title"
+import { StaticQuery, graphql } from "gatsby"
 import Product from "./Product";
 const getProducts = graphql`
   {
@@ -31,6 +31,7 @@ export default function Products() {
           <section className="py-5">
             <div className="container">
               <Title title="our products" />
+              <hr className="uwu"></hr>
               <div className="row">
                 {data.products.edges.map(({ node: product }) => {
                   return <Product key={product.id} product={product} />;

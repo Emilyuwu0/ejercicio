@@ -38,6 +38,8 @@ export default class Menu extends Component {
         <section className="menu py-5">
           <div className="container">
             <Title title="our menu" />
+            <hr className="uwu"></hr>
+
             <div className="row mb-5">
               <div className="col-10  mx-auto text-center">
                 {this.state.categories.map((category, index) => {
@@ -58,12 +60,17 @@ export default class Menu extends Component {
             </div>
             <div className="row">
               {this.state.coffeeItems.map(({ node }) => {
+                
                 return (
                   <div
                     key={node.id}
+                    
                     className="col-11 col-md-6 my-2 d-flex mx-auto"
                   >
+                    
                     <div>
+                    <hr className="uwu"></hr>
+
                       <Img fixed={node.image.fixed} />
                     </div>
 
